@@ -3,6 +3,7 @@ return {
   event = "LazyFile",
   dependencies = {
     "jose-elias-alvarez/typescript.nvim",
+    "yioneko/nvim-vtsls",
     init = function()
       require("lazyvim.util").lsp.on_attach(function(_, buffer) end)
     end,
