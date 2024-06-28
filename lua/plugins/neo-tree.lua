@@ -9,7 +9,12 @@ return {
     {
       ";e",
       function()
-        require("neo-tree.command").execute({ toggle = true, position = "float", dir = require("lazyvim.util").root() })
+        require("neo-tree.command").execute({
+          reveal = true,
+          toggle = true,
+          position = "float",
+          dir = require("lazyvim.util").root(),
+        })
       end,
       desc = "Explorer NeoTree (root dir)",
     },
