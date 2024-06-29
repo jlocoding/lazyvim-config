@@ -6,6 +6,7 @@ return {
         keys = {
           edit = "o",
           vsplit = "v",
+          split = "s",
         },
       },
     })
