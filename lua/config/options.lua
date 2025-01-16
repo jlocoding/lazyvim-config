@@ -50,3 +50,6 @@ opt.spelloptions = "camel"
 
 -- disable yank to system clipboard
 opt.clipboard = ""
+
+-- Animation from snacks
+vim.g.snacks_animate = false
